@@ -1,1 +1,1 @@
-Example project for [JHelper](https://github.com/AlexeyDmitriev/jhelper/)
+My JHelperProject for [JHelper](https://github.com/AlexeyDmitriev/jhelper/)

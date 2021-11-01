@@ -1,12 +1,9 @@
-#include <iostream>
-#include <fstream>
-
 %Code%
 
 int main() {
-	%ClassName% solver;
-	%Input%
-	%Output%
-	%SolverCall%
-	return 0;
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    %ClassName% solver;
+    solver.solve();
+    return 0;
 }

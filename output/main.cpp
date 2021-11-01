@@ -4,30 +4,51 @@
  * @author
  */
 
-#include <iostream>
+#include <set>
+#include <map>
+#include <ctime>
+#include <queue>
+#include <stack>
+#include <deque>
+#include <cmath>
+#include <string>
+#include <vector>
+#include <cstdio>
+#include <cctype>
+#include <bitset>
+#include <numeric>
+#include <iomanip>
+#include <sstream>
 #include <fstream>
-
+#include <cstdlib>
+#include <cassert>
 #include <iostream>
+#include <algorithm>
+#include <functional>
+#include <unordered_map>
 
-
-int getTheAnswer() {
-    return 42;
-}
+using namespace std;
 
 class Task {
 public:
-	void solve(std::istream& in, std::ostream& out) {
-		int x;
-		in >> x;
-		out << x + getTheAnswer() << "\n";
-	}
+    void solveOne() {
+        return;
+    }
+
+    void solve() {
+        int nt = 1;
+        //cin >> nt;
+        for (int it = 0; it < nt; ++it) {
+            solveOne();
+        }
+        return;
+    }
 };
 
-
 int main() {
-	Task solver;
-	std::istream& in(std::cin);
-	std::ostream& out(std::cout);
-	solver.solve(in, out);
-	return 0;
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    Task solver;
+    solver.solve();
+    return 0;
 }
